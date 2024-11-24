@@ -1,0 +1,48 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  .contact-item i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .contact-item span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 0.85em;
+    color: #555;
+  }
+  
+  /* Status Circle */
+  .status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .status-circle.active {
+    background-color: #28a745; /* Green for active */
+  }
+  
+  .status-circle.inactive {
+    background-color: #ccc; /* Gray for inactive */
+  }
+  
